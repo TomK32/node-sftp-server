@@ -104,7 +104,7 @@ var ContextWrapper = (function() {
   }
 
   ContextWrapper.prototype.reject = function() {
-    return this.ctx.reject();
+    return this.ctx.reject(['password']);
   };
 
   ContextWrapper.prototype.accept = function(callback) {
